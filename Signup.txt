@@ -1,0 +1,9 @@
+Name
+Email
+Password
+DateOfBirth
+Terms
+Country
+Gender
+Address
+Phone

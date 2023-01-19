@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Signup Form</title>
+</head>
+
+<body>
+    <!-- 1. Creating a sign up form. -->
+    <h3>Please Sign up.</h3>
+    <form>
+        <div>
+            <!-- label for name -->
+            <label for="username">Enter your name</label>
+            <!-- textbox for name -->
+            <input required type="text" placeholder="Your Name..." name="username">
+        </div>
+
+        <div>
+            <label for="">Enter your Email</label>
+            <input readonly type="email" name="useremail">
+        </div>
+
+        <div>
+            <label for="password">Enter your Password</label>
+            <input type="password" name="password">
+        </div>
+
+        <div>
+            <label for="dob">Enter Date of Birth</label>
+            <input type="date" name="dob">
+        </div>
+
+        <div>
+            <input type="checkbox" name="terms">
+            <label for="terms">I accept <a href="http://www.google.com">Terms and Conditions</a> </label>
+        </div>
+
+        <div>
+            <label for="country">Select your country</label>
+            <select name="country" id="country">
+                <option value="1">India</option>
+                <option value="2">USA</option>
+                <option value="3">China</option>
+                <option value="4">France</option>
+                <option value="5">Canada</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="gender">Select your gender</label>
+            <input type="radio" name="gender"> <label>Male</label>
+            <input type="radio" name="gender"> <label>Female</label>
+        </div>
+        <div>
+            <label>Enter your address</label>
+            <textarea rows="10" cols="100">
+
+            </textarea>
+        </div>
+
+        <div>
+            <label for="phone">Enter your Phone</label>
+            <input type="tel" name="phone">
+        </div>
+
+        <button type="submit">Sign Up</button>
+        <button type="reset"> Reset</button>
+
+    </form>
+</body>
+
+</html>
