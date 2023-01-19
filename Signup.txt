@@ -1,4 +1,4 @@
-Name
+FirstName
 Email
 Password
 DateOfBirth
